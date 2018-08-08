@@ -1,0 +1,68 @@
+body {
+    background-image: url("../ac2b3f6b398b81b849c0b3dd8132_w833_h1258_gi_photo_439578 (1).jpg");
+}
+img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+p{
+    text-align: justify;
+}
+.ikony{
+    text-align: center;
+}
+#page{
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 6px;
+}
+#page div:first-of-type{
+    font-style: italic;
+    font-weight:bolder;
+}
+
+a {
+ color: blue;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Amatic-Bold;
+}
+a:hover {
+    color: aqua;
+    text-decoration: #37ffdc;
+}
+
+.menu{
+    font-family: Amatic-Bold;
+    list-style-type: none;
+}
+.menu li {
+    display: inline;
+    padding: 6px;
+
+}
+
+@font-face {
+    font-family: Amatic-Bold;
+    src: url("../font/Amatic-Bold.ttf")
+}
+h1 {
+    font-family: Amatic-Bold;
+}
+@media(max-width: 576px) {
+    #page{
+        width:100%;
+    }
+
+    #page img {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
